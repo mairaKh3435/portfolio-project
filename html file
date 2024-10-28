@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!--   *** Link To Custom CSS File ***   -->
+	<link rel="stylesheet" type="text/css" href="mf.css">
+
+	<!--   *** Link To Font Awesome Icons ***   -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Maira Khan</title>
+
+	<style>
+		.certificates {
+			display: flex;
+			justify-content: space-between;
+			flex-wrap: wrap;
+			gap: 20px;
+		}
+		.certificates_post {
+			width: 30%; /* Adjust the width to make certificates fit well in one row */
+			background: #f9f9f9;
+			padding: 15px;
+			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+			border-radius: 10px;
+		}
+		.certificates_post img {
+			width: 100%;
+			height: auto;
+			border-radius: 8px;
+		}
+		.certificates_post .date-posted {
+			margin: 10px 0;
+			font-size: 14px;
+			color: #555;
+		}
+		.certificates_post .title {
+			font-size: 18px;
+			margin-bottom: 10px;
+		}
+		.certificates_post a {
+			display: inline-block;
+			background: #007bff;
+			color: #fff;
+			padding: 8px 12px;
+			border-radius: 5px;
+			text-decoration: none;
+		}
+		.certificates_post a:hover {
+			background: #0056b3;
+		}
+	</style>
+</head>
+<body>
+<!--   *** Website Container Starts ***   -->
+<div class="website-container">
+	
+<section class="home" id="home">
+	
+	<div class="home-overlay"></div>
+
+	<nav class="navbar">
+		<div class="logo">
+			<h1>Maira</h1>
+		</div>
+		<ul class="navbar-links">
+			<li><a href="#home">Home</a></li>
+			<li><a href="#about">About</a></li>
+			<li><a href="#skills">Skills</a></li>
+			<li><a href="#education">Education</a></li>
+			<li><a href="#certificates">Certificates</a></li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>
+		<div class="menu-btn">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+	</nav>
+
+	<div class="home-banner">
+		<h1>Maira Khan</h1>
+		<h3>Generative AI researcher</h3>
+		<div class="social-media-links">
+			<a href="https://www.instagram.com/_maira742_?igsh=MXc2NHQxZWhucXhrag==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+			<a href="https://pin.it/5y9gS9MJ9" target="_blank"><i class="fa-brands fa-pinterest"></i></a>
+			<a href="#"><i class="fas fa-phone"></i></a>
+		</div>
+	</div>
+
+</section>
+
+<!--   *** About Section Starts ***   -->
+<section class="about" id="about">
+	
+	<div class="about-photo">
+		<img src="p2.PNG" alt="Profile Photo">
+	</div>
+
+<!--   === About Contents Wrapper Starts ===   -->
+<div class="about-contents-wrapper">
+	<header class="section-heading">
+		<h1>About Me</h1>
+	</header>
+
+	<div class="about-description">
+		<div class="about-col-1">
+			<h2>Generative AI researcher & Data Analyst</h2>
+			<p>As a computer scientist, I'm constantly seeking to expand my knowledge and skills in the field, staying up-to-date with the latest trends and advancements.</p>
+			
+			<div class="about-personal-info">
+				<div><span>Name:</span><span>Maira Khan</span></div>
+				<div><span>Age:</span><span>20 Years</span></div>
+				<div><span>Email:</span><span>maira10052002@gmail.com</span></div>
+				<div><span>Address:</span><span>17 Main Street, Islamabad City</span></div>
+			</div>
+		</div>
+		<div class="about-col-2">
+			<div class="fact-box">
+				<span class="icon">
+					<i class="fa-solid fa-briefcase"></i>
+				</span>
+				<span class="fact-desc">
+					<h2> 1 Year of </h2>
+					<p>Experience</p>
+				</span>
+			</div>
+
+			<div class="fact-box">
+				<span class="icon">
+					<i class="fa-solid fa-file"></i>
+				</span>
+				<span class="fact-desc">
+					<h2>5+ Projects</h2>
+					<p>Completed</p>
+				</span>
+			</div>
+
+			<div class="fact-box">
+				<span class="icon">
+					<i class="fa-solid fa-award"></i>
+				</span>
+				<span class="fact-desc">
+					<h2>6+ Certificates</h2>
+					<p>Received</p>
+				</span>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!--   *** Skills Section Starts ***   -->
+<section class="skills" id="skills">
+	<header class="section-heading">
+		<h1>Skills</h1>
+	</header>
+	<div class="skills-container">
+		<div class="skills">
+			<div class="subject">HTML</div>
+			<div class="progress-bar" value="74%">
+				<div class="progress-line" style="max-width: 74%"></div>
+			</div>
+		</div>
+		<div class="skills">
+			<div class="subject">CSS</div>
+			<div class="progress-bar" value="63%">
+				<div class="progress-line" style="max-width: 63%"></div>
+			</div>
+		</div>
+		<div class="skills">
+			<div class="subject">C++</div>
+			<div class="progress-bar" value="98%">
+				<div class="progress-line" style="max-width: 98%"></div>
+			</div>
+		</div>
+		<div class="skills">
+			<div class="subject">SQL</div>
+			<div class="progress-bar" value="88%">
+				<div class="progress-line" style="max-width: 88%"></div>
+			</div>
+		</div>
+		<div class="skills">
+			<div class="subject">OOP</div>
+			<div class="progress-bar" value="78%">
+				<div class="progress-line" style="max-width: 78%"></div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!--   *** Education Section Starts ***   -->
+<section class="education" id="education">
+	<header class="section-heading">
+		<h1>Education</h1>
+	</header>
+	<div class="education-contents">
+		<div class="education-box">
+			<div class="icon-box">
+				<i class="fa-solid fa-brush"></i>
+			</div>
+			<h2>Bachelor in Computer Science</h2>
+			<p>Bachelor in Computer Science from Riphah International University</p>
+			<a href="#">Learn More</a>
+		</div>
+	</div>
+</section>
+
+<!--   *** Freelancing Section Starts ***   -->
+<section class="order-project">
+	<div class="order-project-container">
+		<h2>I'm Available For Freelancing</h2>
+		<p>I'm doing freelance projects on online platforms like Fiverr & Upwork.</p>
+		<a href="https://www.fiverr.com/mairamalik105?public_mode=true" target="_blank">
+			<button class="order-project-btn btn">Order Project</button>
+		  </a>
+	</div>
+		  </section>
+
+<!--   *** Certificates Section Starts ***   -->
+<section class="certificates" id="certificates">
+	<header class="section-heading">
+		<h1>My Certificates</h1>
+	</header>
+	<div class="certificates">
+		<div class="certificates_post">
+			<img src="p2.PNG" alt="Programming Fundamentals">
+			<div class="date-posted">
+				<i class="fa-solid fa-calendar"><span>Sep 03, 2023</span></i>
+			</div>
+			<h2 class="title">Programming Fundamentals</h2>
+			<a href="#">View</a>
+		</div>
+
+		<div class="certificates_post">
+			<img src="p3.PNG" alt="No SQL">
+			<div class="date-posted">
+				<i class="fa-solid fa-calendar"><span>March 03, 2023</span></i>
+			</div>
+			<h2 class="title">No SQL</h2>
+			<a href="#">View</a>
+		</div>
+
+		<div class="certificates_post">
+			<img src="p1.PNG" alt="Probability and Statistics">
+			<div class="date-posted">
+				<i class="fa-solid fa-calendar"><span>May 14, 2023</span></i>
+			</div>
+			<h2 class="title">Probability and Statistics</h2>
+			<a href="#">View</a>
+		</div>
+	</div>
+</section>
+
+<!--   *** Contact Section Starts ***   -->
+<section class="contact" id="contact">
+	<div class="contact-col contact-col-left">
+		<h1>Contact Me</h1>
+		<div class="contact-media">
+			<div class="contact-item">
+				<div class="icon">
+					<i class="fa-solid fa-location-dot"></i>
+				</div>
+				<div class="contact-text">
+					<span>My Address</span>
+					<span>#488, 2<sup>nd</sup> Street, Islamabad</span>
+				</div>
+			</div>
+
+			<div class="contact-item">
+				<div class="icon">
+					<i class="fa-solid fa-phone"></i>
+				</div>
+				<div class="contact-text">
+					<span>Phone Number</span>
+					<span>+93 03190267440</span>
+				</div>
+			</div>
+
+			<div class="contact-item">
+				<div class="icon">
+					<i class="fa-solid fa-envelope"></i>
+				</div>
+				<div class="contact-text">
+					<span>Email Address</span>
+					<span>maira10052002@gmail.com</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="contact-col contact-col-right">
+		<form class="contact-form">
+			<div class="input-element name-input">
+				<input type="text" required="required" placeholder="Your Name">
+			</div>
+			<div class="input-element email-input">
+				<input type="email" required="required" placeholder="Your Email">
+			</div>
+			<div class="text-area">
+				<textarea required="required" placeholder="Your Message"></textarea>
+			</div>
+			<div class="form-btn-container">
+				<button type="submit" class="form-btn btn">Send Message</button>
+			</div>
+		</form>
+	</div>
+</section>
+
+<div class="footer">
+	<div class="line">
+		<div class="social-media-links">
+			<a href="https://www.instagram.com/_maira742_?igsh=MXc2NHQxZWhucXhrag==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+			<a href="https://pin.it/5y9gS9MJ9" target="_blank"><i class="fa-brands fa-pinterest"></i></a>
+			<a href="#"><i class="fas fa-phone"></i></a>
+		</div>
+		<p>Created By <span>Maira</span> All Rights Reserved</p>
+	</div>
+</div>
+
+</body>
+</html>
